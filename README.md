@@ -128,6 +128,5 @@ npm start
 Frontend will open at: http://localhost:3000
 ```
 ### Demo link
-[link]https://www.google.com
-
+https://drive.google.com/file/d/1cOm2YhtFZXSBuT2_FxtEYwsis2uI0OrV/view?usp=drive_link
 
