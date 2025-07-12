@@ -51,10 +51,20 @@ A **full-stack application** designed to streamline the hiring process. This sys
 
 ### Backend: `ATS_System/`
 ├── app.py # Main Flask server
+
+
 ├── nlp_matcher.py # Core NLP logic
+
+
 ├── requirements.txt # Python dependencies
+
+
 ├── cv_uploads/ # Uploaded CVs
+
+
 ├── company.csv # Job listings database
+
+
 └── applicants.csv # Applications database
 
 ### Frontend: `CV_ATS_FRONTEND/`
