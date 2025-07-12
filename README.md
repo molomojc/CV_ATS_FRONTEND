@@ -126,7 +126,8 @@ python app.py
 # Inside CV_ATS_FRONTEND directory
 npm start
 Frontend will open at: http://localhost:3000
-
-### DEMO LINK
+```
+### Demo link
+[link]https://www.google.com
 
 
