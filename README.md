@@ -50,4 +50,63 @@ A **full-stack application** designed to streamline the hiring process. This sys
 ## 🗂 Project Structure
 
 ### Backend: `ATS_System/`
+├── app.py # Main Flask server
+├── nlp_matcher.py # Core NLP logic
+├── requirements.txt # Python dependencies
+├── cv_uploads/ # Uploaded CVs
+├── company.csv # Job listings database
+└── applicants.csv # Applications database
+
+### Frontend: `CV_ATS_FRONTEND/`
+
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.js
+│ └── index.js
+├── package.json
+└── ...
+
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+
+- Git
+- Python 3.9+
+- Node.js + npm
+
+---
+
+### 1. Backend Setup (Python Flask Server)
+
+```bash
+# Clone the backend repository
+git clone https://github.com/molomojc/ATS_System
+cd ATS_System
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Clone the frontend repository
+git clone https://github.com/molomojc/CV_ATS_FRONTEND
+cd CV_ATS_FRONTEND
+
+# Install dependencies
+npm install
+
+# Inside ATS_System directory
+python app.py
+#Backend will run at: http://127.0.0.1:5000
+
+# Inside CV_ATS_FRONTEND directory
+npm start
+Frontend will open at: http://localhost:3000
+
 
