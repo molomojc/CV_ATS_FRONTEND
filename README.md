@@ -70,11 +70,23 @@ A **full-stack application** designed to streamline the hiring process. This sys
 ### Frontend: `CV_ATS_FRONTEND/`
 
 ├── public/
+
+
 ├── src/
+
+
 │ ├── components/
+
+
 │ ├── App.js
+
+
 │ └── index.js
+
+
 ├── package.json
+
+
 └── ...
 
 
