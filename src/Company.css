@@ -1,0 +1,42 @@
+.containerStyle {
+    background-color: #ccc;
+    color: #000;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: sans-serif;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .inputStyle {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #fff;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .labelStyle {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .buttonStyle {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .buttonStyle:hover {
+    background-color: #e0e0e0;
+  }
+  
