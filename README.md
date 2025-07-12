@@ -109,10 +109,6 @@ A **full-stack application** designed to streamline the hiring process. This sys
 git clone https://github.com/molomojc/ATS_System
 cd ATS_System
 
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
 # Install dependencies
 pip install -r requirements.txt
 
