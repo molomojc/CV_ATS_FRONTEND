@@ -42,7 +42,7 @@ function Apply() {
     <div style={{ padding: '2rem' }}>
       <h2>Apply for Job #{jobID}</h2>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '400px' }}>
-        <label>User ID:</label>
+        <label>Name :</label>
         <input type="text" value={userID} onChange={(e) => setUserID(e.target.value)} required />
 
         <label>Upload CV:</label>

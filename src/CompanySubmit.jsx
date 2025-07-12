@@ -3,7 +3,7 @@ import './Company.css'
 
 function SubmitJob() {
   const [form, setForm] = useState({
-    jobID: '',
+    
     jobName: '',
     jobDesc: '',
     jobOpen: '',
@@ -54,9 +54,7 @@ function SubmitJob() {
     <div className="containerStyle">
       <h1>Submit a Job Poster</h1>
 
-      <label className="labelStyle" >Job ID</label>
-      <input className="inputStyle" name="jobID" value={form.jobID} onChange={handleChange} />
-
+     
       <label className="labelStyle">Job Name</label>
       <input className="inputStyle" name="jobName" value={form.jobName} onChange={handleChange} />
 
