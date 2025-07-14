@@ -127,6 +127,31 @@ python app.py
 npm start
 Frontend will open at: http://localhost:3000
 ```
+### USAGE 
+
+1. Go to any browser
+2. type [http](http://localhost:3000)
+3. This will initially show no jobs available
+4. Go to http://localhost:3000/company
+5. enter the details of the jobs (particularly the job description)
+6. Fo sake of demo stration i have included samples of the Job description in
+7. /lib job_description.txt (copy it and paste it in the job description)
+8. then click submit (in the back_end this is written as a dataframe and written in the data/Company.csv
+9. go back to
+10. http://localhost:3000 -> Now the job you listed should be available
+11. Click apply
+12. Enter your name and upload your CV
+13. For sake of demostration
+14. (upload 1. the Good CV also found in lib/Example.pdf) (This to test the model should give us 1.0 cosine similarity)
+15. (uplaod 2. the Bad CV also found in lib/badCv.pdf) (This to test the model should give us 0.0 cosine similarity)
+16. Then your done on the front end
+17. in the back-end under data/applicant.csv you will find the two applicant that applied with the exact expected analysing results which is 1.0 for 100% on Good CV
+18. and you get 0.0% which is 0% on the good cv
+19. (For exampling how the similarity function works please visit https://github.com/molomojc/ATS_System and the Readme.txt explains this function very well.
+20. 
+   
+
+
 ### Demo link
 https://drive.google.com/file/d/1cOm2YhtFZXSBuT2_FxtEYwsis2uI0OrV/view?usp=drive_link
 
