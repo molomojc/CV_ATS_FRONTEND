@@ -14,7 +14,7 @@ const LogIn = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [loginSuccess, setLoginSuccess] = useState(false);
 
-  const navigate = useNavigate(); // ✅ useNavigate hook
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -52,7 +52,7 @@ const LogIn = () => {
       if (respond.status === 200) {
         localStorage.setItem("isLoggedIn", true);
         setLoginSuccess(true);
-        navigate("/company");
+        navigate("/recruiter");
       } else {
         alert("Incorrect credentials");
       }
