@@ -1,7 +1,19 @@
 import React, { useState } from 'react';
 import './Company.css'
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function SubmitJob() {
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    if (!isLoggedIn) {
+      navigate("/login");
+    }
+  }, []);
+
   const [form, setForm] = useState({
     
     jobName: '',
